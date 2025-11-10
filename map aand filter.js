@@ -18,8 +18,12 @@
 // let result=arr.map((value)=>(value*value)+1);
 // console.log(result);
 
+//4.find the length of each value
+// let arr=["hii","helloo","good"];
+//let result=arr.map((value)=>{console.log(value.length);
+//})
 
-// 4.Filter Even Numbers:
+// 1.Filter Even Numbers:
 // Input: [12, 5, 8, 17, 20, 3]
 // Task: Create a new array containing only the even numbers.
 // Expected Output: [12, 8, 20]
@@ -28,7 +32,7 @@
 // let result=arr.filter((value)=>value%2==0);
 // console.log(result);
 
-// 5.Filter Long Strings:
+// 2.Filter Long Strings:
 // Input: ['cat', 'dog', 'elephant', 'mouse', 'giraffe']
 // Task: Create a new array containing only the strings that have a length of 5 or more characters.
 // Expected Output: ['elephant', 'mouse', 'giraffe']
@@ -37,7 +41,7 @@
 // let result=arr.filter((value)=>value.length>=5);
 // console.log(result);
 
-// 6.Filter Active Users:
+// 3.Filter Active Users:
 // Input: [{name: 'A', isActive: true}, {name: 'B', isActive: false}, {name: 'C', isActive: true}]
 // Task: Create a new array containing only the user objects where the isActive property is true.
 // Expected Output: [{name: 'A', isActive: true}, {name: 'C', isActive: true}]
@@ -45,5 +49,6 @@
 // let arr= [{name: 'A', isActive: true}, {name: 'B', isActive: false}, {name: 'C', isActive: true}];
 // let result=arr.filter((value)=>value.isActive==true);
 // console.log(result);
+
 
 
